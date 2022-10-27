@@ -1,0 +1,8 @@
+C:\Users\kyoto\source\repos\BuildSchoolExercise\Q5_StudentObject\bin\Debug\Q5_StudentObject.exe.config
+C:\Users\kyoto\source\repos\BuildSchoolExercise\Q5_StudentObject\bin\Debug\Q5_StudentObject.exe
+C:\Users\kyoto\source\repos\BuildSchoolExercise\Q5_StudentObject\bin\Debug\Q5_StudentObject.pdb
+C:\Users\kyoto\source\repos\BuildSchoolExercise\Q5_StudentObject\obj\Debug\Q5_StudentObject.csproj.AssemblyReference.cache
+C:\Users\kyoto\source\repos\BuildSchoolExercise\Q5_StudentObject\obj\Debug\Q5_StudentObject.csproj.SuggestedBindingRedirects.cache
+C:\Users\kyoto\source\repos\BuildSchoolExercise\Q5_StudentObject\obj\Debug\Q5_StudentObject.csproj.CoreCompileInputs.cache
+C:\Users\kyoto\source\repos\BuildSchoolExercise\Q5_StudentObject\obj\Debug\Q5_StudentObject.exe
+C:\Users\kyoto\source\repos\BuildSchoolExercise\Q5_StudentObject\obj\Debug\Q5_StudentObject.pdb
