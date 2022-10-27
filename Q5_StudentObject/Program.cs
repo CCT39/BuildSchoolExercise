@@ -49,7 +49,7 @@ namespace Q5_StudentObject
             set 
             {
                 if (Regex.IsMatch(value, idPattern))
-                    id = value;
+                    id = value.ToUpper();
                 else
                     id = "00000000A";
             }
