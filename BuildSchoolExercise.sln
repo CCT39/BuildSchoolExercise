@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q2_PrimeNumber", "Q2_PrimeN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q3_LoopWords", "Q3_LoopWords\Q3_LoopWords.csproj", "{488567A4-89F5-4906-8C45-C40FBC55A1D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q4_Triangle", "Q4_Triangle\Q4_Triangle.csproj", "{E74CF771-3AD6-41D0-ABB0-8393FE1C944B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{488567A4-89F5-4906-8C45-C40FBC55A1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{488567A4-89F5-4906-8C45-C40FBC55A1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{488567A4-89F5-4906-8C45-C40FBC55A1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74CF771-3AD6-41D0-ABB0-8393FE1C944B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74CF771-3AD6-41D0-ABB0-8393FE1C944B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74CF771-3AD6-41D0-ABB0-8393FE1C944B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74CF771-3AD6-41D0-ABB0-8393FE1C944B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
