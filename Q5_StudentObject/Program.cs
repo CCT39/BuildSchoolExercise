@@ -39,7 +39,7 @@ namespace Q5_StudentObject
 
     class Student
     {
-        private static string id = "";
+        private string id = "";
         private readonly static string idPattern = @"^[0-9]{8}[A-Za-z]{1}$";
         private readonly static int maxCourses = 16;
 
@@ -47,9 +47,11 @@ namespace Q5_StudentObject
         {
             get { return id; }
             set 
-            { 
+            {
                 if (Regex.IsMatch(value, idPattern))
-                    id = value; 
+                    id = value;
+                else
+                    id = "00000000A";
             }
         }
         public string Name { get; set; }
