@@ -19,9 +19,9 @@ namespace Q2_PrimeNumber
             //參考埃拉托斯特尼的篩法尋找質數，若其為合數則將陣列的對應位置設為0
             for (int i = 3; Math.Pow(i, 2) <= max; i++)
             {
-                for (int j = 2; j < i; j++) //先找出小於等於sqrt(max)的質數
+                for (int j = 2; j <= i; j++) //先找出小於等於sqrt(max)的質數
                 {
-                    if (i % j == 0)
+                    if (i % j == 0 && i != j)
                     {
                         primes[i] = 0;
                         break;
@@ -32,7 +32,7 @@ namespace Q2_PrimeNumber
             }
 
             //用已知的質數檢查大於sqrt(max)的數是否是質數
-            for (int k = Convert.ToInt32(Math.Sqrt(max)); k < max + 1; k++)
+            for (int k = Convert.ToInt32(Math.Sqrt(max)) + 1; k < max + 1; k++)
             {
                 for (int p = 1; p <= Math.Sqrt(max); p++)
                 {
